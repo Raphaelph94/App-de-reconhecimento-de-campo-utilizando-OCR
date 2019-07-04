@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="#fff"
+                app:cardUseCompatPadding="true"
+                app:cardCornerRadius="3dp"
+                app:cardElevation="3dp">
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="vertical"
+                   android:padding="5dp">
+                   <ImageView
+                       android:id="@+id/testeimg"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:maxHeight="250dp"/>
+                   <TextView
+                       android:text="Nome"
+                       android:textColor="@color/colorPrimary"
+                       android:textSize="20sp"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content" />
+
+                   <EditText
+                       android:id="@+id/resultEt"
+                       android:hint=""
+                       android:autoLink="all"
+                       android:background="@null"
+                       android:padding="5dp"
+                       android:textColor="#000"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content" />
+                   <TextView
+                       android:text="Numero CNH"
+                       android:textColor="@color/colorPrimary"
+                       android:textSize="20sp"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content" />
+                   <EditText
+                       android:id="@+id/ncnh"
+                       android:hint=""
+                       android:autoLink="all"
+                       android:background="@null"
+                       android:padding="5dp"
+                       android:textColor="#000"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content" />
+                   <TextView
+                       android:text="Categoria"
+                       android:textColor="@color/colorPrimary"
+                       android:textSize="20sp"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content" />
+                   <EditText
+                       android:id="@+id/cat"
+                       android:hint=""
+                       android:autoLink="all"
+                       android:background="@null"
+                       android:padding="5dp"
+                       android:textColor="#000"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content" />
+                   <TextView
+                       android:text="CPF"
+                       android:textColor="@color/colorPrimary"
+                       android:textSize="20sp"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content" />
+                   <EditText
+                       android:id="@+id/cpf"
+                       android:hint=""
+                       android:autoLink="all"
+                       android:background="@null"
+                       android:padding="5dp"
+                       android:textColor="#000"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content" />
+                   <TextView
+                       android:text="Estado"
+                       android:textColor="@color/colorPrimary"
+                       android:textSize="20sp"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content" />
+                   <EditText
+                       android:id="@+id/estado"
+                       android:hint=""
+                       android:autoLink="all"
+                       android:background="@null"
+                       android:padding="5dp"
+                       android:textColor="#000"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content" />
+
+               </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="#fff"
+                app:cardUseCompatPadding="true"
+                app:cardCornerRadius="3dp"
+                app:cardElevation="3dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+                    <TextView
+                        android:text="Imagem Selecionada"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                    <ImageView
+                        android:id="@+id/imageIv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxHeight="250dp"/>
+                    <TextView
+                        android:text="Nome"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                    <ImageView
+                        android:id="@+id/teste"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxHeight="250dp"/>
+                    <TextView
+                        android:text="CPF"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                    <ImageView
+                        android:id="@+id/testecpf"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxHeight="250dp"/>
+                    <TextView
+                        android:text="Categoria"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                    <ImageView
+                        android:id="@+id/testecategoria"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxHeight="250dp"/>
+                    <TextView
+                        android:text="Numero da Habilitação"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                    <ImageView
+                        android:id="@+id/testenumhab"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxHeight="250dp"/>
+                    <TextView
+                        android:text="Estado"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                    <ImageView
+                        android:id="@+id/testeestado"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxHeight="250dp"/>
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+        
+    </ScrollView>
+
+</RelativeLayout>
